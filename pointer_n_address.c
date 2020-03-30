@@ -53,7 +53,7 @@ void basic(void)
     p = &y; // change and point to y
     printf("Pointer pointing to y: '%c'\n", *p); // dereferencing to the y using *p
 
-    p = &x; // change back to pointing to x
+    p = &x; // change back to pointing to x (without *, p is essentially storing the address)
     *p = y; // change value of x to y
     printf("Change value of x to y by pointer: x is now '%c'\n", x);
 
