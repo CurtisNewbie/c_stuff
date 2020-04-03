@@ -90,7 +90,7 @@ To increment the value that the member as a pointer that it's pointing to
 
          ++*p->np    increments pointer p
          *p->++np    increments pointer np
-         (*p->np)    increments the variable that is pointed by np
+         ++(*p->np)    increments the variable that is pointed by np
 
 ------------------------------------
 */
