@@ -13,6 +13,13 @@
 
 int main()
 {
+
+    // #define is not the only way to make a variable constant
+    // we can use const
+
+    const int i = 4;
+    printf("const i: %d\n", i);
+
     printf("int: %d\n", MAX_AGE);
     printf("long: %ld\n", MAX_POPULATION);
     printf("char: %c\n", TOP_GRAGE);
