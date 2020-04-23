@@ -1,3 +1,4 @@
+#include "util.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,19 +11,6 @@ Challenge 1
 
 ------------------------------------
 */
-
-void printArr(int arr[], int len)
-{
-    printf("Array: [");
-    for (int i = 0; i < len; i++) {
-        printf("%d", arr[i]);
-        // putchar(arr[i] + '0'); // won't work if arr[i] > 9
-        if (i != len - 1)
-            putchar(' ');
-    }
-    putchar(']');
-    putchar('\n');
-}
 
 // sort and merge arr[l...m] and arr[m + 1...r]
 void merge(int arr[], int l, int m, int r)
